@@ -1,0 +1,23 @@
+{
+  "arch": "x86_64",
+  "build": "haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [],
+  "features": "",
+  "fn": "ca-certificates-2022.4.26-haa95532_0.conda",
+  "legacy_bz2_md5": "fc617188edba43763f388d9a55955492",
+  "license": "MPL-2.0",
+  "license_family": "Other",
+  "md5": "a7f576e4fce9c3b8275ff6b327337e44",
+  "name": "ca-certificates",
+  "platform": "win32",
+  "sha256": "9bdc131076dfa2841632a40b0fd71be1cccdc6b82098e3dd6b4cf1df6505e797",
+  "size": 127263,
+  "subdir": "win-64",
+  "timestamp": 1651507646898,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/ca-certificates-2022.4.26-haa95532_0.conda",
+  "version": "2022.4.26"
+}

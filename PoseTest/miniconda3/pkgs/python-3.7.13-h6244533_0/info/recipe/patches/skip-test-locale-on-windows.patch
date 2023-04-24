@@ -1,0 +1,12 @@
+diff -urN a/Lib/test/test_locale.py b/Lib/test/test_locale.py
+--- a/Lib/test/test_locale.py	2022-03-16 16:27:21.000000000 +0300
++++ b/Lib/test/test_locale.py	2022-03-22 16:03:21.113096736 +0300
+@@ -21,7 +21,7 @@
+                 # (10.4 is known to be bad)
+                 raise unittest.SkipTest("Locale support on MacOSX is minimal")
+         elif sys.platform.startswith("win"):
+-            tlocs = ("En", "English")
++            raise unittest.SkipTest("Skipping locale tests on Windows")
+         else:
+             tlocs = ("en_US.UTF-8", "en_US.ISO8859-1",
+                      "en_US.US-ASCII", "en_US")
